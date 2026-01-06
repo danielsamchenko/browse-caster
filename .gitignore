@@ -1,0 +1,15 @@
+# Xcode
+.DS_Store
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.xcscmblueprint
+*.xccheckout
+
+# Build products
+build/
+*.ipa
+
+# CocoaPods
+Pods/

@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1C11FDCE7D66B10213A13A6B /* Pods_browseCaster_browseCasterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AB9F41E6A8370A06DBA918 /* Pods_browseCaster_browseCasterUITests.framework */; };
+		4232A0A97C5DF09BFE50CA89 /* Pods_browseCasterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4FAAD861BFD83909C1301B3 /* Pods_browseCasterTests.framework */; };
+		ECEBE6800AED897502E0F49A /* Pods_browseCaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48917137BB520EAA31156FAE /* Pods_browseCaster.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F49EF6072F0CCC7100B6DD84 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,14 +30,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F89BEC411E295234BFEF3B9 /* Pods-browseCaster-browseCasterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-browseCaster-browseCasterUITests.debug.xcconfig"; path = "Target Support Files/Pods-browseCaster-browseCasterUITests/Pods-browseCaster-browseCasterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AB6A596DC7C4874D7D9AFDE /* Pods-browseCasterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-browseCasterTests.release.xcconfig"; path = "Target Support Files/Pods-browseCasterTests/Pods-browseCasterTests.release.xcconfig"; sourceTree = "<group>"; };
+		48917137BB520EAA31156FAE /* Pods_browseCaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_browseCaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		540CBEC88BDF50EBC68F350B /* Pods-browseCaster-browseCasterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-browseCaster-browseCasterUITests.release.xcconfig"; path = "Target Support Files/Pods-browseCaster-browseCasterUITests/Pods-browseCaster-browseCasterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6D9AB646A7AA195900AB9ADB /* Pods-browseCasterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-browseCasterTests.debug.xcconfig"; path = "Target Support Files/Pods-browseCasterTests/Pods-browseCasterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C191DD6A846FCAA44BCA6942 /* Pods-browseCaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-browseCaster.debug.xcconfig"; path = "Target Support Files/Pods-browseCaster/Pods-browseCaster.debug.xcconfig"; sourceTree = "<group>"; };
+		C3AB9F41E6A8370A06DBA918 /* Pods_browseCaster_browseCasterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_browseCaster_browseCasterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4FAAD861BFD83909C1301B3 /* Pods_browseCasterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_browseCasterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4207874373CF2484ECEF36 /* Pods-browseCaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-browseCaster.release.xcconfig"; path = "Target Support Files/Pods-browseCaster/Pods-browseCaster.release.xcconfig"; sourceTree = "<group>"; };
 		F49EF5F62F0CCC6F00B6DD84 /* browseCaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = browseCaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49EF6062F0CCC7100B6DD84 /* browseCasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = browseCasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49EF6102F0CCC7100B6DD84 /* browseCasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = browseCasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F4D04F682F0DB1B00066ED57 /* Exceptions for "browseCaster" folder in "browseCaster" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F49EF5F52F0CCC6F00B6DD84 /* browseCaster */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F49EF5F82F0CCC6F00B6DD84 /* browseCaster */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F4D04F682F0DB1B00066ED57 /* Exceptions for "browseCaster" folder in "browseCaster" target */,
+			);
 			path = browseCaster;
 			sourceTree = "<group>";
 		};
@@ -52,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECEBE6800AED897502E0F49A /* Pods_browseCaster.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4232A0A97C5DF09BFE50CA89 /* Pods_browseCasterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C11FDCE7D66B10213A13A6B /* Pods_browseCaster_browseCasterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A8B50C7CC01D4A68E843DE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48917137BB520EAA31156FAE /* Pods_browseCaster.framework */,
+				C3AB9F41E6A8370A06DBA918 /* Pods_browseCaster_browseCasterUITests.framework */,
+				D4FAAD861BFD83909C1301B3 /* Pods_browseCasterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C02CF10DB09AB795413C72FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C191DD6A846FCAA44BCA6942 /* Pods-browseCaster.debug.xcconfig */,
+				DA4207874373CF2484ECEF36 /* Pods-browseCaster.release.xcconfig */,
+				0F89BEC411E295234BFEF3B9 /* Pods-browseCaster-browseCasterUITests.debug.xcconfig */,
+				540CBEC88BDF50EBC68F350B /* Pods-browseCaster-browseCasterUITests.release.xcconfig */,
+				6D9AB646A7AA195900AB9ADB /* Pods-browseCasterTests.debug.xcconfig */,
+				3AB6A596DC7C4874D7D9AFDE /* Pods-browseCasterTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F49EF5ED2F0CCC6E00B6DD84 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +133,8 @@
 				F49EF6092F0CCC7100B6DD84 /* browseCasterTests */,
 				F49EF6132F0CCC7100B6DD84 /* browseCasterUITests */,
 				F49EF5F72F0CCC6F00B6DD84 /* Products */,
+				C02CF10DB09AB795413C72FD /* Pods */,
+				0A8B50C7CC01D4A68E843DE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F49EF61A2F0CCC7100B6DD84 /* Build configuration list for PBXNativeTarget "browseCaster" */;
 			buildPhases = (
+				156DD5847500AE536C4C04AC /* [CP] Check Pods Manifest.lock */,
 				F49EF5F22F0CCC6F00B6DD84 /* Sources */,
 				F49EF5F32F0CCC6F00B6DD84 /* Frameworks */,
 				F49EF5F42F0CCC6F00B6DD84 /* Resources */,
+				F4BC1CEBC1C0CE834C80D945 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -111,8 +169,6 @@
 				F49EF5F82F0CCC6F00B6DD84 /* browseCaster */,
 			);
 			name = browseCaster;
-			packageProductDependencies = (
-			);
 			productName = browseCaster;
 			productReference = F49EF5F62F0CCC6F00B6DD84 /* browseCaster.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F49EF61D2F0CCC7100B6DD84 /* Build configuration list for PBXNativeTarget "browseCasterTests" */;
 			buildPhases = (
+				2853D0D6FE4C342530961E9D /* [CP] Check Pods Manifest.lock */,
 				F49EF6022F0CCC7100B6DD84 /* Sources */,
 				F49EF6032F0CCC7100B6DD84 /* Frameworks */,
 				F49EF6042F0CCC7100B6DD84 /* Resources */,
@@ -134,8 +191,6 @@
 				F49EF6092F0CCC7100B6DD84 /* browseCasterTests */,
 			);
 			name = browseCasterTests;
-			packageProductDependencies = (
-			);
 			productName = browseCasterTests;
 			productReference = F49EF6062F0CCC7100B6DD84 /* browseCasterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F49EF6202F0CCC7100B6DD84 /* Build configuration list for PBXNativeTarget "browseCasterUITests" */;
 			buildPhases = (
+				6CBD0D88E9ED1FDB6CA981EA /* [CP] Check Pods Manifest.lock */,
 				F49EF60C2F0CCC7100B6DD84 /* Sources */,
 				F49EF60D2F0CCC7100B6DD84 /* Frameworks */,
 				F49EF60E2F0CCC7100B6DD84 /* Resources */,
+				CA7EEAA57F78C78E140E2C37 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,8 +214,6 @@
 				F49EF6132F0CCC7100B6DD84 /* browseCasterUITests */,
 			);
 			name = browseCasterUITests;
-			packageProductDependencies = (
-			);
 			productName = browseCasterUITests;
 			productReference = F49EF6102F0CCC7100B6DD84 /* browseCasterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +285,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		156DD5847500AE536C4C04AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-browseCaster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2853D0D6FE4C342530961E9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-browseCasterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CBD0D88E9ED1FDB6CA981EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-browseCaster-browseCasterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA7EEAA57F78C78E140E2C37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-browseCaster-browseCasterUITests/Pods-browseCaster-browseCasterUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-browseCaster-browseCasterUITests/Pods-browseCaster-browseCasterUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-browseCaster-browseCasterUITests/Pods-browseCaster-browseCasterUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4BC1CEBC1C0CE834C80D945 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-browseCaster/Pods-browseCaster-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-browseCaster/Pods-browseCaster-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-browseCaster/Pods-browseCaster-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F49EF5F22F0CCC6F00B6DD84 /* Sources */ = {
@@ -390,14 +548,20 @@
 		};
 		F49EF61B2F0CCC7100B6DD84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C191DD6A846FCAA44BCA6942 /* Pods-browseCaster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"browseCaster/Preview Content\"";
+				DEVELOPMENT_TEAM = FJULR6927Y;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = browseCaster/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Discover and connect to Chromecast on your local network.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -418,14 +582,20 @@
 		};
 		F49EF61C2F0CCC7100B6DD84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA4207874373CF2484ECEF36 /* Pods-browseCaster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"browseCaster/Preview Content\"";
+				DEVELOPMENT_TEAM = FJULR6927Y;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = browseCaster/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Discover and connect to Chromecast on your local network.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -446,6 +616,7 @@
 		};
 		F49EF61E2F0CCC7100B6DD84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9AB646A7AA195900AB9ADB /* Pods-browseCasterTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +635,7 @@
 		};
 		F49EF61F2F0CCC7100B6DD84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AB6A596DC7C4874D7D9AFDE /* Pods-browseCasterTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +654,7 @@
 		};
 		F49EF6212F0CCC7100B6DD84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F89BEC411E295234BFEF3B9 /* Pods-browseCaster-browseCasterUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -498,6 +671,7 @@
 		};
 		F49EF6222F0CCC7100B6DD84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540CBEC88BDF50EBC68F350B /* Pods-browseCaster-browseCasterUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

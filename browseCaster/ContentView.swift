@@ -1,24 +1,22 @@
-//
-//  ContentView.swift
-//  browseCaster
-//
-//  Created by Daniel Samchenko on 2026-01-05.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack(spacing: 12) {
+                Text("browseCaster")
+                Text("Tap the Cast icon to find your Chromecast.")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+            }
+            .padding()
+            .navigationTitle("browseCaster")
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    CastButtonView()
+                        .frame(width: 28, height: 28)
+                }
+            }
         }
-        .padding()
     }
-}
-
-#Preview {
-    ContentView()
 }
